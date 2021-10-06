@@ -7,4 +7,18 @@
     <string name="descricao">Descricao</string>
     <string name="nameError">Preencha os dados da planta!</string>
     <string name="cleanFields">Os campos foram limpos</string>
+    <string name="checkboxPlantInfo">Nao quero inserir uma descricao</string>
+    <string name="briofitas">Briofitas</string>
+    <string name="gimnospermas">Gimnospermas</string>
+    <string name="angiospermas">Angiospermas</string>
+    <string name="pteridofitas">Pteridofitas</string>
+    <string name="germ">Germinacao</string>
+    <string name="emerg">Emergencia</string>
+    <string name="vegt">Vegetativo</string>
+    <string name="reprd">Reprodutivo</string>
+    <string name="was_selected">foi selecionado</string>
+    <string name="sel_phase">Selecione a fase em que a planta se encontra</string>
+    <string name="sel_filo">Selecione o filo da planta</string>
+
+
 </resources>
