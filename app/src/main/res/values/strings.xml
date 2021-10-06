@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PlantControl</string>
+    <string name="nome">Nome da planta</string>
+    <string name="limpar">Limpar</string>
+    <string name="especie">Especie</string>
+    <string name="solo">Tipo do Solo</string>
+    <string name="descricao">Descricao</string>
+    <string name="nameError">Preencha os dados da planta!</string>
+    <string name="cleanFields">Os campos foram limpos</string>
+</resources>
