@@ -3,14 +3,11 @@ package com.example.plantcontrol;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.Toast;
-
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
         radioGroupTypes = findViewById(R.id.radioGroupTypes);
 
     }
-
-    public void popularSpinner(){
+    /*Usa essa merda pra popular um spinner, na primeira tentativa n funfou, mas tá quase certo*/
+    /*public void popularSpinner(){
 
         ArrayList<String> lista = new ArrayList<>();
 
@@ -42,14 +39,16 @@ public class MainActivity extends AppCompatActivity {
         lista.add(getString(R.string.emerg));
         lista.add(getString(R.string.vegt));
         lista.add(getString(R.string.reprd));
+        lista.add("APARECE BUCETA DO INFERNO");
+        lista.add("420");
 
         ArrayAdapter<String> adapter =
-                new ArrayAdapter<>(this,
-                        android.R.layout.simple_list_item_1,
+                new ArrayAdapter<String>(this,
+                        android.R.layout.simple_spinner_dropdown_item,
                         lista);
 
         spinnerPeriod.setAdapter(adapter);
-    }
+    }*/
 
     public void cleanText(View view){
 

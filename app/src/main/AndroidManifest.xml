@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PlantControl">
         <activity
+            android:name=".AutorDataActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ListPlant"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

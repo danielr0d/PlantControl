@@ -20,5 +20,10 @@
     <string name="sel_phase">Selecione a fase em que a planta se encontra</string>
     <string name="sel_filo">Selecione o filo da planta</string>
 
-
+    <string-array name="periods">
+        <item>Germinacao</item>
+        <item>Emergencia</item>
+        <item>Vegetativo</item>
+        <item>Reprodutivo</item>
+    </string-array>
 </resources>
